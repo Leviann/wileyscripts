@@ -91,7 +91,7 @@ function getAddedProductsFromEBP(event, EBPnumber, email){
     arr.splice(0,2);
     arr.splice(arr.length-9,9);
     arr.forEach(item => { products = products + item.textContent+"|"});
-    writeNewAccountToGoogle(email, "All", htmlText[0]);
+    writeNewAccountToGoogle(email, products, htmlText[0]);
 }
 
 
