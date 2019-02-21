@@ -33,10 +33,10 @@ function afterEmailCreation(xhr, email)
 }
 
 function reqListener() {
-    var expr = /\d{6}/;
+    var expr = /ebp_handle=(\d+)&/;
     var EBPnumber = expr.exec(this.responseText);
-    console.log(EBPnumber[0]);
-    setAccess(EBPnumber[0], accessGroupID);
+    console.log(EBPnumber[1]);
+    setAccess(EBPnumber[1], accessGroupID);
 }
 
 
