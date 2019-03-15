@@ -53,6 +53,21 @@ GM_registerMenuCommand("2019 ACT Course", function(){
     settings.linkForAccess = commonURLPart+"act/act.html";
     init(settings);});
 
+GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
+    settings.accessGroupID = ["606052"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus_review.html";
+    init(settings);});
+
+GM_registerMenuCommand("GMAT 2020 Test Bank", function(){
+    settings.accessGroupID = ["606056","606057","606058","606059","606060","606061","606062","606063","606064"];
+    settings.linkForAccess = commonURLPart+"gmat/gmat_2020.html";
+    init(settings);});
+
+GM_registerMenuCommand("Google Cloud ACE SG TB", function(){
+    settings.accessGroupID = ["606125"];
+    settings.linkForAccess = commonURLPart+"google/ace.html";
+    init(settings);});
+
 //---------------------------------------------------------------------------------------------------------------------------
 
 GM_registerMenuCommand("2018 CFA Course", function(){
