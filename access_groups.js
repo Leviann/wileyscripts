@@ -58,6 +58,16 @@ GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
     settings.linkForAccess = commonURLPart+"comptia/aplus_review.html";
     init(settings);});
 
+GM_registerMenuCommand("CompTIA A+ Deluxe Study Guide Test Bank", function(){
+    settings.accessGroupID = ["606054"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus_deluxe.html";
+    init(settings);});
+
+GM_registerMenuCommand("CompTIA A+ Study Guide TB", function(){
+    settings.accessGroupID = ["606053"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus_study.html";
+    init(settings);});
+
 GM_registerMenuCommand("GMAT 2020 Test Bank", function(){
     settings.accessGroupID = ["606056","606057","606058","606059","606060","606061","606062","606063","606064"];
     settings.linkForAccess = commonURLPart+"gmat/gmat_2020.html";
