@@ -18,9 +18,14 @@ GM_registerMenuCommand("2019 CIA Course", function(){
     settings.linkForAccess = commonURLPart+"cia/part1_2019.html";
     init(settings);});
 
-GM_registerMenuCommand("2019 CMT Course", function(){
+GM_registerMenuCommand("2019 CMT Level I Course", function(){
     settings.accessGroupID = ["225633","225634","225636","225635","361161","361162","361163","604464","604465","604466","604467","604468","604469","604470","604471","604472","604473","604474","604475"];
-    settings.linkForAccess = commonURLPart+"cmt/level1.html";
+    settings.linkForAccess = commonURLPart+"cmt/level1_2019.html";
+    init(settings);});
+
+GM_registerMenuCommand("2019 CMT Level II Course", function(){
+    settings.accessGroupID = ["604470","604471","604472","604473","604474","604475"];
+    settings.linkForAccess = commonURLPart+"cmt/level2_2019.html";
     init(settings);});
 
 GM_registerMenuCommand("2019 CMA Course", function(){
