@@ -58,6 +58,11 @@ GM_registerMenuCommand("2019 ACT Course", function(){
     settings.linkForAccess = commonURLPart+"act/act.html";
     init(settings);});
 
+GM_registerMenuCommand("AWS 2019 Course", function(){
+    settings.accessGroupID = ["604725","604726","604727","604728","604729","604730"];
+    settings.linkForAccess = commonURLPart+"aws/csa.html";
+    init(settings);});
+
 GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
     settings.accessGroupID = ["606052"];
     settings.linkForAccess = commonURLPart+"comptia/aplus_review.html";
@@ -71,6 +76,11 @@ GM_registerMenuCommand("CompTIA A+ Deluxe Study Guide Test Bank", function(){
 GM_registerMenuCommand("CompTIA A+ Study Guide TB", function(){
     settings.accessGroupID = ["606053"];
     settings.linkForAccess = commonURLPart+"comptia/aplus_study.html";
+    init(settings);});
+
+GM_registerMenuCommand("CompTIA A+ Practice Tests Test Bank", function(){
+    settings.accessGroupID = ["606055"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus_practice.html";
     init(settings);});
 
 GM_registerMenuCommand("GMAT 2020 Test Bank", function(){
