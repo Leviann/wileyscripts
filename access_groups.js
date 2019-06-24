@@ -59,8 +59,13 @@ GM_registerMenuCommand("2019 ACT Course", function(){
     init(settings);});
 
 GM_registerMenuCommand("AWS 2019 Course", function(){
-    settings.accessGroupID = ["604725","604726","604727","604728","604729","604730"];
+    settings.accessGroupID = ["604725","604726","604727","604728","604729","604730","608255"];
     settings.linkForAccess = commonURLPart+"aws/csa.html";
+    init(settings);});
+
+GM_registerMenuCommand("CPA Johnson Test Bank", function(){
+    settings.accessGroupID = ["608331","608349"];
+    settings.linkForAccess = commonURLPart+"cpa/johnson.html";
     init(settings);});
 
 GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
