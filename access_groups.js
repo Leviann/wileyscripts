@@ -80,6 +80,16 @@ GM_registerMenuCommand("CPA Johnson Test Bank", function(){
     settings.linkForAccess = commonURLPart+"cpa/johnson.html";
     init(settings);});
 
+GM_registerMenuCommand("CompTIA A+ 1001 Course", function(){
+    settings.accessGroupID = ["606065","606066","606067","608269","606068","606070","606071","608451","608452","608453","608270","608454","608456","608457"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus.html";
+    init(settings);});
+
+GM_registerMenuCommand("CompTIA A+ 1002 Course", function(){
+    settings.accessGroupID = ["606065","606066","606067","608269","606068","606070","606071","608451","608452","608453","608270","608454","608456","608457"];
+    settings.linkForAccess = commonURLPart+"comptia/aplus_1002.html";
+    init(settings);});
+
 GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
     settings.accessGroupID = ["606052"];
     settings.linkForAccess = commonURLPart+"comptia/aplus_review.html";
@@ -103,6 +113,11 @@ GM_registerMenuCommand("CompTIA A+ Practice Tests Test Bank", function(){
 GM_registerMenuCommand("GMAT 2020 Test Bank", function(){
     settings.accessGroupID = ["606056","606057","606058","606059","606060","606061","606062","606063","606064"];
     settings.linkForAccess = commonURLPart+"gmat/gmat_2020.html";
+    init(settings);});
+
+GM_registerMenuCommand("GMAT Advanced Question Test Bank", function(){
+    settings.accessGroupID = ["570925","608989","608990"];
+    settings.linkForAccess = commonURLPart+"gmat/gmat-aq.html";
     init(settings);});
 
 GM_registerMenuCommand("Google Cloud ACE SG TB", function(){
