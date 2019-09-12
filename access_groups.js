@@ -40,6 +40,11 @@ GM_registerMenuCommand("2019 CMT Level II Course", function(){
     settings.linkForAccess = commonURLPart+"cmt/level2_2019.html";
     init(settings);});
 
+GM_registerMenuCommand("2019 CMT Level III Course", function(){
+    settings.accessGroupID = ["225636","225635","361163","609035","609036","609037","609038","609039","609040"];
+    settings.linkForAccess = commonURLPart+"cmt/level3_2019.html";
+    init(settings);});
+
 GM_registerMenuCommand("2019 CMA Course", function(){
     settings.accessGroupID = ["569325","569326","569330","569327","569328","569329","569331","569332","569333","569334","569335","569336"];
     settings.linkForAccess = commonURLPart+"cma/part1_2019.html";
@@ -88,6 +93,11 @@ GM_registerMenuCommand("CompTIA A+ 1001 Course", function(){
 GM_registerMenuCommand("CompTIA A+ 1002 Course", function(){
     settings.accessGroupID = ["606065","606066","606067","608269","606068","606070","606071","608451","608452","608453","608270","608454","608456","608457"];
     settings.linkForAccess = commonURLPart+"comptia/aplus_1002.html";
+    init(settings);});
+
+GM_registerMenuCommand("Linux Professional Institute Certification Practice Tests", function(){
+    settings.accessGroupID = ["608912"];
+    settings.linkForAccess = commonURLPart+"linux/lpic.html";
     init(settings);});
 
 GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
