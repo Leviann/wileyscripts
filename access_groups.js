@@ -100,6 +100,11 @@ GM_registerMenuCommand("Linux Professional Institute Certification Practice Test
     settings.linkForAccess = commonURLPart+"linux/lpic.html";
     init(settings);});
 
+GM_registerMenuCommand("Linux Professional Institute Certification Study Guide 5e Test Bank", function(){
+    settings.accessGroupID = ["608913"];
+    settings.linkForAccess = commonURLPart+"linux/lpic.html";
+    init(settings);});
+
 GM_registerMenuCommand("CompTIA A+ Review Guide Test Bank", function(){
     settings.accessGroupID = ["606052"];
     settings.linkForAccess = commonURLPart+"comptia/aplus_review.html";
@@ -132,6 +137,11 @@ GM_registerMenuCommand("GMAT Advanced Question Test Bank", function(){
 
 GM_registerMenuCommand("Google Cloud ACE SG TB", function(){
     settings.accessGroupID = ["606125"];
+    settings.linkForAccess = commonURLPart+"google/ace.html";
+    init(settings);});
+
+GM_registerMenuCommand("Google Cloud Certified Professional Cloud Architect Study Guide Test Bank", function(){
+    settings.accessGroupID = ["609041"];
     settings.linkForAccess = commonURLPart+"google/ace.html";
     init(settings);});
 
