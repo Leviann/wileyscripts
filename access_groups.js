@@ -1,108 +1,108 @@
 GM_registerMenuCommand("CPA 2020 11th Hour courses", function () {
     settings.accessGroupID = ["610066", "610065", "610125", "610124", "610089", "610088", "609744", "609743"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "cpa/far11thhour.html";
     init(settings);
 });
 
 GM_registerMenuCommand("Sybex LPI Security Essentials Study Guide TB", function () {
     settings.accessGroupID = ["610499", "610498", "610471", "610470", "610427"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("ACT 2021 Test Bank", function () {
     settings.accessGroupID = ["610424", "610423", "610414", "610413", "610412", "610411", "610410", "610409", "610408", "610407"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "act/prep-guide-2021.html";
     init(settings);
 });
 
 GM_registerMenuCommand("GMAT 2021 Test Bank", function () {
     settings.accessGroupID = ["610406", "610405", "610404", "610403", "610402", "610401", "610400", "610399", "610398"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "gmat/gmat_2021.html";
     init(settings);
 });
 
 GM_registerMenuCommand("CFA 2021 Course", function () {
     settings.accessGroupID = ["610391", "610390", "610389", "610387", "610386", "610385", "610384", "610383", "610380", "610379", "610378", "610376", "610375", "610374", "610373", "610371", "610370", "610369", "610367", "610366", "610365", "610364", "610363", "610362", "610361", "610360", "610358", "610357", "610356", "610355", "610354", "610353", "610352", "610351"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "cfa/level1_2021.html";
     init(settings);
 });
 
 GM_registerMenuCommand("FINRA SIE Diagnostic Tool", function () {
     settings.accessGroupID = ["610349"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("Sybex AWS Certified SysOps Administrator Practice Tests TB", function () {
     settings.accessGroupID = ["610344", "610343", "610248"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("FRM 2020 Course", function () {
     settings.accessGroupID = ["610074", "610073", "610072", "610071", "610070", "610069", "610068", "610067"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "frm/part1_2020.html";
     init(settings);
 });
 
 GM_registerMenuCommand("Sybex MCA Modern Desktop Administrator Study Guide Exam 101 Test Bank", function () {
     settings.accessGroupID = ["610038", "610037"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "mca/mca-studyguideexam101.html";
     init(settings);
 });
 
 GM_registerMenuCommand("AP US History 2020 Test Bank", function () {
     settings.accessGroupID = ["610035", "610034"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("Sybex LPI Linux Essentials Study Guide: Exam 010 v1.6 Test Bank", function () {
     settings.accessGroupID = ["609965", "609936"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("CAIA 2020 Level I Basic Course", function () {
     settings.accessGroupID = ["609854", "609853", "609852", "609851", "609850", "609849"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "caia/level1_2020.html";
     init(settings);
 });
 
 GM_registerMenuCommand("ACT 2020 Beginner Guide Test Bank", function () {
     settings.accessGroupID = ["609713", "609712"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "act/beginners-guide.html";
     init(settings);
 });
 
 GM_registerMenuCommand("CMT 2020 Course", function () {
     settings.accessGroupID = ["609683", "609682", "609681", "609680", "609679", "609678", "609677", "609676", "609675", "609674", "609673", "609672", "609671", "609670", "609669", "609668", "609667", "609666"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "cmt/level1_2020.html";
     init(settings);
 });
 
 GM_registerMenuCommand("Sybex CompTIA Cloud Essentials+ Study Guide: Exam CLO-002 Test Bank", function () {
     settings.accessGroupID = ["609619"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = "not-yet-available";
     init(settings);
 });
 
 GM_registerMenuCommand("2018 Investment Banking - Credly", function () {
     settings.accessGroupID = ["609284", "609283", "609282", "609281", "609280"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "ib/course1.html";
     init(settings);
 });
 
 GM_registerMenuCommand("Google Cloud Certified Professional Cloud Architect Study Guide Test Bank", function () {
     settings.accessGroupID = ["609041"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "google/pca.html";
     init(settings);
 });
 
 GM_registerMenuCommand("Linux Professional Institute Certification Study Guide Test Bank", function () {
     settings.accessGroupID = ["608913", "608912"];
-    settings.linkForAccess = commonURLPart + "course/level.html";
+    settings.linkForAccess = commonURLPart + "linux/lpic-studyguide.html";
     init(settings);
 });
 
