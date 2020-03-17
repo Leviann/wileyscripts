@@ -30,7 +30,7 @@ GM_registerMenuCommand("CFA 2021 Course", function () {
 
 GM_registerMenuCommand("FINRA SIE Diagnostic Tool", function () {
     settings.accessGroupID = ["610349"];
-    settings.linkForAccess = "not-yet-available";
+    settings.linkForAccess = commonURLPart + "finra/diagnosticsie.html";
     init(settings);
 });
 
