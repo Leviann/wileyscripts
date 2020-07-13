@@ -1,5 +1,5 @@
 function init(settings) {
-    testing_linkForAccess = settings.linkForAccess+'?u=';
+    testing_linkForAccess = 'https://uat3app.efficientlearning.com/pv5/v8/rest/masquerade/login?u=';
     testing_googlePageId = settings.pageId;
     testing_googleSpreadsheetToken = settings.token;
     testing_login = settings.login;
